@@ -30,9 +30,9 @@ h1 {
   width: 100%;
   padding: 10px;
   font-size: 24px;
-  border: none;
+  border: 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .buttons {
@@ -77,6 +77,12 @@ button:hover {
   grid-row: span 3;
   color: #fff;
 }
+
+.delete {
+  background-color: hotpink;
+}
+
+
 
 ul {
   list-style-type: none;
